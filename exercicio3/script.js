@@ -4,10 +4,9 @@ let b = 25
 console.log(a, b)
 
 //trocar os valores de a e b
-let novoA = b
-let novoB = a
-a = novoA
-b = novoB
+let c = a
+a = b
+b = c
 
 
 //imprimir os novos valores de a e b
